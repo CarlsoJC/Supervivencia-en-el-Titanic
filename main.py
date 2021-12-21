@@ -34,7 +34,7 @@ def llegada_datos():
     #Los datos se guardan en datos juegos: 
     datos_juegos = save_data_juegos()
     print(datos_juegos)
-
+    print("HI")
     
     return Response(status=200)
 
